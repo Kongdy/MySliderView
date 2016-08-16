@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 吸附滑动器  -->
+    <declare-styleable name="NodeSlider">
+        <!-- 外圈颜色 -->
+        <attr name="ns_out_color" format="color"/>
+        <!-- 内圈颜色,到达 -->
+        <attr name="ns_in_reach_color" format="color"/>
+        <!-- 节点数量,至少为2 -->
+        <attr name="ns_node_count" format="integer"/>
+        <!-- 滑块-->
+        <attr name="ns_sliderBlock" format="reference"/>
+        <!-- 是否显示底部标注 -->
+        <attr name="ns_show_slider_label" format="boolean"/>
+        <!-- 底部标注文字大小 -->
+        <attr name="ns_sliderLabelTextSize" format="dimension"/>
+        <!--底部标注文字颜色 -->
+        <attr name="ns_sliderLabelColor" format="color"/>
+        <!-- 内圈未到达颜色 -->
+        <attr name="ns_inNoReachColor" format="color"/>
+    </declare-styleable>
+
+    <!-- 滑动器 -->
+    <declare-styleable name="MySliderView">
+        <!-- 滑块的图片 -->
+        <attr name="slider_cursor" format="reference"/>
+    </declare-styleable>
+</resources>
